@@ -1,0 +1,45 @@
+@import "./header.css";
+@import "./burger.css";
+@import "./top-charts.css";
+@import "./coming-soon.css";
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+section {
+    margin-top: 50px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Russo One", sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    
+}
