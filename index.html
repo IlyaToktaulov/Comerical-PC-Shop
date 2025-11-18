@@ -16,9 +16,9 @@
         <div class="header-inner">
           <h1 class="header-logo">Business-PC</h1>
           <nav class="nav">
-            <a href="/" class="nav-link">Топ продаж</a>
-            <a href="/" class="nav-link">Неттопы</a>
+            <a href="#top-sale" class="nav-link">Топ продаж</a>
             <a href="/" class="nav-link">Подборки</a>
+            <a href="/" class="nav-link">Контакты</a>
             <a href="/" class="nav-link">Доставка</a>
           </nav>
           <div class="js-burger-btn burger-btn"></div>
@@ -26,9 +26,9 @@
         <div class="js-burger burger">
           <div class="burger__content">
             <nav class="burger-nav">
-            <a href="/" class="burger-nav-link">Ноутбуки</a>
-            <a href="/" class="burger-nav-link">Неттопы</a>
+            <a href="/" class="burger-nav-link">Топ продаж</a>
             <a href="/" class="burger-nav-link">Подборки</a>
+            <a href="/" class="burger-nav-link">Контакты</a>
             <a href="/" class="burger-nav-link">Доставка</a>
           </nav>
           </div>
@@ -37,7 +37,7 @@
     </header>
     <main>
       <div class="container">
-        <section class="top__charts">
+        <section id="top-sale" class="top__charts">
           <div class="chart">
             <img class="chart__img" src="./resources/charts/thinkpadx12.webp" alt="ноутбук lenovo">
             <div class="bubble__sale">Топ продаж</div>
@@ -81,8 +81,44 @@
             </div>
           </div>
         </section>
+        <section class="selection">
+          <h2>Подборки</h2>
+          <div class="selection__cards">
+            <div class="selection__card">
+              <img src="./resources/selection/Lenovo-Logo.png" alt="Логотип Lenovo" class="selection__card-logo">
+            </div>
+            <div class="selection__card">
+              <img src="./resources/selection/hewlett-packard-logo.png" alt="Логотип HP" class="selection__card-logo">
+            </div>
+            <div class="selection__card">
+              <img src="./resources/selection/Intel_logo_(2020,_dark_blue).svg.png" alt="Логотип Intel" class="selection__card-logo">
+            </div>
+            <div class="selection__card">
+              <img src="./resources/selection/aquarius.png" alt="Логотип Aquarius" class="selection__card-logo">
+            </div>
+            <div class="selection__card">
+              <img src="./resources/selection/asus-logo.png" alt="Логотип Asus" class="selection__card-logo">
+            </div>
+            <div class="selection__card">
+              <img src="./resources/selection/dell.png" alt="Логотип Dell" class="selection__card-logo">
+            </div>
+            <div class="selection__card">
+              <img src="./resources/selection/Logo_Acer.png" alt="Логотип Acer" class="selection__card-logo">
+            </div>
+            <div class="selection__card">
+              <img src="./resources/selection/Samsung.png" alt="Логотип Samsung" class="selection__card-logo">
+            </div>
+          </div>
+        </section>
       </div>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <p class="footer-title">Вычислительная техника для бизнеса 2025</p>
+        </div>
+      </div>
+    </footer>
     <script src="./scripts/burger.js"></script>
   </body>
 </html>

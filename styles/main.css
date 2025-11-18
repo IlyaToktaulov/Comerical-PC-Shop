@@ -2,6 +2,8 @@
 @import "./burger.css";
 @import "./top-charts.css";
 @import "./coming-soon.css";
+@import "./footer.css";
+@import "./selection.css";
 
 html {
     scroll-behavior: smooth;
@@ -24,7 +26,13 @@ h3 {
     font-family: "Russo One", sans-serif;
 }
 
+h4 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
 h2 {
+    margin-bottom: 50px;
     font-size: 24px;
 }
 
