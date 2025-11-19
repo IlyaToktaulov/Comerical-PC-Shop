@@ -4,6 +4,7 @@
 @import "./coming-soon.css";
 @import "./footer.css";
 @import "./selection.css";
+@import "./news.css";
 
 html {
     scroll-behavior: smooth;
@@ -32,7 +33,7 @@ h4 {
 }
 
 h2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 24px;
 }
 
